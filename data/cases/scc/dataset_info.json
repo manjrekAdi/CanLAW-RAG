@@ -1,0 +1,78 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "SCC",
+  "dataset_name": "canadian-legal-data",
+  "dataset_size": 732140525,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/refugee-law-lab/canadian-legal-data@3fd912464ba2f53e91cc6351f5d0dd509f3ea52b/SCC/train.parquet": {
+      "num_bytes": 357272274,
+      "checksum": null
+    }
+  },
+  "download_size": 357272274,
+  "features": {
+    "citation": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "citation2": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "dataset": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "year": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "language": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "document_date": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source_url": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "scraped_timestamp": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "unofficial_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "other": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1089412799,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 732140525,
+      "num_examples": 15707,
+      "dataset_name": "canadian-legal-data"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
