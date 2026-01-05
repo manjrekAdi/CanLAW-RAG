@@ -1,0 +1,44 @@
+
+# CanLAW-RAG Backend Dependencies
+# Week 1+: Core dependencies for data processing and RAG system
+
+# Data Parsing
+lxml>=5.1.0                    # XML parsing for CBCA statute
+python-docx>=1.1.0             # DOCX parsing for OBCA statute
+
+# Data Loading
+datasets>=2.16.0               # HuggingFace datasets for Arrow files
+pyarrow>=15.0.0                # Arrow file support
+
+# Embeddings & Vector DB
+sentence-transformers>=2.3.0   # all-MiniLM-L6-v2 embeddings
+chromadb>=0.4.22               # Vector database
+torch>=2.1.0                   # PyTorch for embeddings
+
+# Knowledge Graph
+networkx>=3.2.0                # Graph construction and traversal
+
+# LLM Integration
+langchain>=0.1.0               # LLM orchestration
+langchain-community>=0.0.10   # Community integrations
+ollama>=0.1.6                  # Ollama Python client
+
+# Web Framework
+fastapi>=0.109.0               # API framework
+uvicorn>=0.27.0                # ASGI server
+pydantic>=2.5.0                # Data validation
+
+# Utilities
+python-dotenv>=1.0.0           # Environment variables
+tqdm>=4.66.0                   # Progress bars
+httpx>=0.26.0                  # Async HTTP client
+
+# Testing
+pytest>=7.4.0                  # Testing framework
+pytest-asyncio>=0.23.0         # Async test support
+pytest-cov>=4.1.0              # Coverage reports
+
+# Development
+black>=24.1.0                  # Code formatting
+flake8>=7.0.0                  # Linting
+mypy>=1.8.0                    # Type checking
